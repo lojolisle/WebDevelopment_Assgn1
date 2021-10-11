@@ -19,6 +19,8 @@ namespace WebAPI_project_assignment1_LisleLojo.Controllers
         {
             return "Greetings to " + id + " people!";
         }
+
+
         /// <summary>
         /// POST api/Greeting
         /// This method is a POST call
@@ -28,7 +30,6 @@ namespace WebAPI_project_assignment1_LisleLojo.Controllers
         {
             return "Hello World!";
         }
-
     }
 
 }
