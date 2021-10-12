@@ -10,7 +10,7 @@ namespace WebAPI_project_assignment1_LisleLojo.Controllers
     public class GreetingController : ApiController
     {
         /// <summary>
-        ///GET api/Greeting/{id}
+        /// GET api/Greeting/{id}
         /// function gets an integer as an input and return a concatnated string
         /// </summary>
         /// <param name="id"></param>
@@ -26,10 +26,11 @@ namespace WebAPI_project_assignment1_LisleLojo.Controllers
         /// This method is a POST call
         /// </summary>
         /// <returns> string </returns>
-        public string Post()
+        public string Post([FromBody] string value)
         {
             return "Hello World!";
         }
+
     }
 
 }

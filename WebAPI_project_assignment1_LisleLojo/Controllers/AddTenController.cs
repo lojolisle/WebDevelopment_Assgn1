@@ -16,7 +16,7 @@ namespace WebAPI_project_assignment1_LisleLojo.Controllers
         /// For Ex: api/AddTen/21 , here input is 21 and function return calculated value of (21+10) = 31
         /// </summary>
         /// <param name="id"></param>
-        /// <returns></returns>
+        /// <returns>integer</returns>
         public int Get(int id)
         {
             return id + 10;

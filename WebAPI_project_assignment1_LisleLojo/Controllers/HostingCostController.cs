@@ -20,7 +20,7 @@ namespace WebAPI_project_assignment1_LisleLojo.Controllers
         /// Total charge = charges + Tax
         /// </summary>
         /// <param name="id"></param>
-        /// <returns>array of strings </returns>
+        /// <returns>array of data</returns>
         public IEnumerable<string> Get(int id)
         {
             double FN = 14;
